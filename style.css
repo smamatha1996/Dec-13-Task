@@ -1,0 +1,65 @@
+h2{
+    font-family:sans-serif;
+    color: darkblue
+}
+
+.fa{
+    padding: 30px;
+    font-size: 35px;
+    width:30px;
+    text-align: center;
+    margin: 5px 3px;
+    border-radius: 55px;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity:0.6;
+}
+.fa-facebook{
+    background: #11f7d1;
+    color:mediumvioletred;
+    
+}
+.fa-google{
+    background: #f2840f;
+    color:olivedrab;
+    
+}
+.fa-instagram{
+    background:#aa0ff2 ;
+    color:gainsboro;
+    
+}
+.fa-twitter{
+    background: #f7f305;
+    color:maroon;
+    
+}
+.fa-whatsapp{
+    background: #4aa9e8;
+    color:forestgreen;
+    
+}
+.fa-youtube{
+    background: #f20f22;
+    color:white;
+    
+}
+
+.fa-linkedin{
+    background: #05f746;
+    color:blue;
+    
+}
+img{
+    width:500px;
+    height:500px;
+    transition:width 2s, height 4s,transform 2s;
+    
+}
+img:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 30%;
+    transform: rotate(360deg);
+}
